@@ -42,7 +42,7 @@ fieldset{
     transition: .5s;
 }
 .inputUser:focus ~ .labelInput, 
-.inputUser.Valid ~ .labelInput{
+.inputUser:Valid ~ .labelInput{
  top: -20px;
  font-size: 12px;
  color: rgb(56, 56, 56);
