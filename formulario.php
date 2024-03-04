@@ -38,6 +38,8 @@ if(isset($_POST['submit'])){
     "INSERT INTO formulariocadastro(nomecompleto, email, senha, telefone, genero, data_nascimento, endereco, cidade, estado)
     values('$nomecompleto', '$email', '$senha', $telefone, '$genero', '$data_nascimento', '$endereco', '$cidade', '$estado')"
     );
+
+    header('Location: login.php');
 }
 
 ?>
